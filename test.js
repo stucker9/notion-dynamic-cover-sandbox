@@ -1,6 +1,7 @@
 // Retrieve weather data from API
 const apiKey = 'a6f65b75c0f7529f4fc1321f2bf0c794';
-const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Providence,US&appid=${a6f65b75c0f7529f4fc1321f2bf0c794}&units=metric`;
+const location = 'Providence,US';
+const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
 
 fetch(apiUrl)
   .then(response => response.json())
