@@ -13,7 +13,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Retrieve weather data from API
   const apiKey = 'a6f65b75c0f7529f4fc1321f2bf0c794';
-  const city = 'Boston';
+  const city = 'Boston,US';
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
 
   fetch(apiUrl)
