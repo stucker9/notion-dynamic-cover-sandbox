@@ -1,5 +1,5 @@
 // Retrieve weather data from API
-const apiKey = 'a6f65b75c0f7529f4fc1321f2bf0c794';
+const apiKey = 'c72f899142d467f70fd9bcbde9a67ef2';
 const city = 'Providence,US';
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
 
